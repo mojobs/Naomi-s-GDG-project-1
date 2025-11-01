@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+}
+  
+body{
+  margin: 0;
+  padding:0;
+  background: #FAF6F0;
+}
+a:link{
+  color:#8B0000;
+}
+a:visited{
+  color:#A52A2A;
+}
+
+h1
+{
+  color: aliceblue;
+  text-align: center;
+  background-color: darkred;
+}
+
+p{
+  text-align: center
+}
+img{
+  border: 1px solid #A52A2A;
+  border-radius: 8px;
+  padding:  5px;
+  width: 150px;
+}
+nav{
+  position: sticky;
+  top: 0;
+  display:flex;
+  justify-content: space-between;
+  background: #FAF0E6;
+  border: 1px dotted  #A52A2A;
+  padding: 5px;
+}
+a{
+  font-family: merriweather-sans;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+hr{
+  border: 1px dotted #A52A2A;
+}
+h2{
+  font-family: play-fair-display; 
+  color: #A52A2A;
+}
+.goals{
+  text-align: justify;
+  align-content: justify;
+  background-color: #FAF0E6;
+  padding: 0px 20px 10px;
+  border: 1px dotted #A52A2A;
+  border-radius: 8px;
+  margin: 10px 7px;
+  color: #362D2D;
+  font-weight: bold;
+}
+.case {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.intro{
+  color: #362D2D;
+  font-family:  lora;
+  font-size:  15px;
+  font-weight: bold;
+}
+.about{
+  color:  #362D2D;
+  text-align: center;
+  font-weight: bold;
+  height: 200px;
+  overflow: scroll;
+  margin: 30px 30px 20px;
+  padding: 10px 30px;
+  background: #FAF0E6;
+  border: 1px   dotted #A52A2A;
+  border-radius: 8px;
+}
+.interests{
+  display:  flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  margin:  10px 10px;
+  color:  #362D2D;
+  text-align: center;
+  font-weight: bold;
+  background: #FAF0E6;
+  border: 1px dotted #A52A2A;
+  border-radius: 8px;
+}
+h3{
+  text-align: center;
+  color:  #A52A2A;
+  font-weight: bold;
+  font-size: 25px;
+}
+.interest{
+  color: #362D2D;
+  font-weight: bold;
+  font-size: 15px;
+}
+.interest:link{
+  color:#362D2D;
+}
+.interest:visited{
+  color:#362D2D;
+}
+h5{
+  text-align: center;
+  color:  #A52A2A;
+  font-weight: bold; 
+  font-size: 15px;
+}
+.connect:visited{
+  color:  #A52A2A;
+}
+.connect:link{
+  color:  #A52A2A;
+}
+.connect{
+  color: #A52A2A;
+  font-weight: bold;
+  font-size: 15px;
+}
